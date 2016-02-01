@@ -1,0 +1,13 @@
+# Site settings
+title: Amar Chandole Homepage
+motto: Do what you love to!
+email: amar.chandole@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Deduplication is good!
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://amarchandole.github.io" # the base hostname & protocol for your site
+github_username:  amarchandole
+twitter_username: invincibleamarc # my fb name is the same, hence used there as well. Dedup you see ;)
+
+# Build settings
+markdown: kramdown

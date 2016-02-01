@@ -1,0 +1,98 @@
+<header class="header">
+	<div class="header-container">
+		<div class="nav_img">
+			<div class="name_header" style="width: 70%; float:left">
+				<h2>Amar Chandole</h2>
+			</div>
+			<div style="width: 30%; float:right">
+				<img class="circular" src="/images/profile3.jpg">
+			</div>
+		</div>
+			<div class="description"> {{ site.motto }} </div>		
+			<div class="nav">
+				{% if page.path == "index.html" %}
+				<span class="title">
+					<li>
+						<a href="/index.html">home</a>
+					</li>
+				</span>			
+				{% else %}
+					<li>
+						<a href="/index.html">home</a>
+					</li>			
+				{% endif %}
+				{% if page.path == "aboutme.html" %}
+				<span class="title">
+					<li>
+						<a href="/aboutme.html">about me</a>
+					</li>
+				</span>			
+				{% else %}
+					<li>
+						<a href="/aboutme.html">about me</a>
+					</li>			
+				{% endif %}
+				{% if page.path == "projects.html" %}
+				<span class="title">
+					<li>
+						<a href="/projects.html">projects</a>
+					</li>
+				</span>			
+				{% else %}
+					<li>
+						<a href="/projects.html">projects</a>
+					</li>			
+				{% endif %}
+				{% if page.path == "artcircle.html" %}
+				<span class="title">
+					<li>
+						<a href="/artcircle.html">art circle</a>
+					</li>
+				</span>			
+				{% else %}
+					<li>
+						<a href="/artcircle.html">art circle</a>
+					</li>			
+				{% endif %}
+				{% if page.path == ".html" %}
+				<span class="title">
+					<li>
+						<a href="/misc.html">misc</a>
+					</li>
+				</span>			
+				{% else %}
+					<li>
+						<a href="/misc.html">misc</a>
+					</li>			
+				{% endif %}
+			</div>
+		<ul class="social-links">
+			<li>
+				<a href="https://github.com/{{ site.github_username }}" title="Github">
+					<img width="19px" height="19px" src="/images/github.png"/>
+				</a>
+			</li>
+			<li>
+				<a href="https://www.linkedin.com/in/amar-chandole-68427377" title="Linkedin">
+					<img width="19px" height="19px" src="/images/linkedin.png"/>
+				</a>
+			</li>
+			<li>
+				<a href="mailto:{{ site.email }}" title="Email">
+					<img width="19px" height="19px" src="/images/email.png"/>
+				</a>
+			</li>
+			<li>
+				<a href="https://twitter.com/{{ site.twitter_username }}" title="Twitter">
+					<img width="19px" height="19px" src="/images/twitter.png"/>
+				</a>
+			</li>
+			<li>
+				<a href="https://facebook.com/{{ site.twitter_username }}" title="Facebook">
+					<img width="19px" height="19px" src="/images/fb.png"/>
+				</a>
+			</li>
+			
+		</ul>			
+	</div>
+</header>

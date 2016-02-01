@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>    
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width initial-scale=1">
+
+  <title>Amar Chandole Homepage</title>
+  <meta name="description" content="Deduplication is good!
+">
+
+  <link rel="shortcut icon" href="/images/favicon.ico">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://amarchandole.github.io/projects.html">
+  <link rel="alternate" type="application/atom+xml" title="Amar Chandole Homepage" href="http://amarchandole.github.io/feed.xml" />
+  <script src="/scripts/jquery-1.11.2.min.js"></script>
+  <script src="/scripts/pithy.js"></script>
+</head>
+
+  <body>
+    <header class="header">
+	<div class="header-container">
+		<div class="nav_img">
+			<div class="name_header" style="width: 70%; float:left">
+				<h2>Amar Chandole</h2>
+			</div>
+			<div style="width: 30%; float:right">
+				
+					<img class="circular" src="/images/projectscloud.png">
+				
+				
+			</div>
+		</div>
+			<div class="description"> Do what you love to! </div>		
+			<div class="nav">
+				
+					<li>
+						<a href="/index.html">home</a>
+					</li>			
+				
+				
+					<li>
+						<a href="/aboutme.html">about me</a>
+					</li>			
+				
+				
+				<span class="title">
+					<li>
+						<a href="/projects.html">projects</a>
+					</li>
+				</span>			
+				
+				
+					<li>
+						<a href="/artcircle.html">art circle</a>
+					</li>			
+				
+				
+					<li>
+						<a href="/misc.html">misc</a>
+					</li>			
+				
+			</div>
+		<ul class="social-links">
+			<li>
+				<a href="https://github.com/amarchandole" title="Github">
+					<img width="19px" height="19px" src="/images/github.png"/>
+				</a>
+			</li>
+			<li>
+				<a href="https://www.linkedin.com/in/amar-chandole-68427377" title="Linkedin">
+					<img width="19px" height="19px" src="/images/linkedin.png"/>
+				</a>
+			</li>
+			<li>
+				<a href="mailto:amar.chandole@gmail.com" title="Email">
+					<img width="19px" height="19px" src="/images/email.png"/>
+				</a>
+			</li>
+			<li>
+				<a href="https://twitter.com/invincibleamarc" title="Twitter">
+					<img width="19px" height="19px" src="/images/twitter.png"/>
+				</a>
+			</li>
+			<li>
+				<a href="https://facebook.com/invincibleamarc" title="Facebook">
+					<img width="19px" height="19px" src="/images/fb.png"/>
+				</a>
+			</li>
+			
+		</ul>		
+	</div>
+</header>
+
+    <div class="page-content">
+      <div class="wrapper">
+        <br>
+        <div class="content">
+    <h1 align = "center"><b>Projects</b></h1>
+   	<div id="outline-container-sec-1" class="content">
+		<br><hr/><br/>
+		<div class="outline-text-1" id="text-1">
+			<h2> <a href="http://www.pict.edu"> Pune Institute of Computer Technology </a> <img style="width:auto; height: 65px;" src="/images/pict.jpeg" align="right"> </h2>
+
+			<ul class="org-ul"><br>
+				<li>
+					<h3><b>Content­-based Storage Mode in Btrfs​</b> (<a href="https://github.com/quadcores/linux">code</a>)</h3>
+				  	
+				  	<p class="subtext"><i>(With Nitesh Singh, Rohan Kadekodi, Vedang Joshi; Mentored by <a href="http://harshadjs.github.io/">Harshad Shirwadkar</a>, <a href="https://www.linkedin.com/in/saurabhkadekodi?trk=pub-pbmap">Saurabh Kadekodi</a>; Ongoing)</i></p><br>  	
+
+				  	<p>
+				  		The project implements content­-based storage mode for the Btrfs file system. This project is also mentioned in the TODO­ list of the Btrfs ideas page.<br><br>
+				  	
+				  		In content­-based storage mode, the data is stored on the disk only on the basis of hash ​of its content. A new b­tree named hash_inode tree is added to the tree of tree roots in the existing Btrfs source code. The hash (SHA­256) of the file is first calculated internally. A (key, value) pair of this hash (as key) and the inode number of the file stored on disk (as value) is then added to the hash_inode_tree. This brings in inherent deduplication at file level ­ as Btrfs must index the inodes by 256­-bit hash values of the entire data they hold respectively, thus eliminating storing redundant objects again. The lookup is also hash based, thus extremely quick.<br><br>
+				  	
+				  		Developed with the use case of content cache routers and CMU’s ​XIA in mind. Also, other use cases like Amazon S3, 	Lustre and other systems using REST API.<br><br>
+				  	</p>
+				</li>
+
+				<li>
+			 	 	<h3><b>University Result Analyzer</b> (<a href="https://github.com/amarchandole/result-analyzer">code</a>)</h3>
+				  	
+				  	<p class="subtext"><i>(With Nishad Dawkhar; Aug 2014 – Oct 2014)</i></p> <br/>
+
+				  	<p>
+						Designed and developed a Java, MongoDB based software with an intuitive GUI that aims to facilitate easy data storage and analysis of University results. It used regular expressions to map different types of fields intelligently and parsed through the complete document with thousands of entries to populate the database. Comprehensive analysis of the results was also made available. This software served the Engineering Institutes across my University to process and analyze large-scale data of Exam Results, originally released only in PDF format.<br><br>
+				  	</p>
+				</li>
+
+				<li>
+			 	 	<h3><b>e-Booking application for Flight-Booking</b></h3>
+				  	
+				  	<p class="subtext"><i>(Aug 2014 – Sept 2014)</i></p><br/>
+
+				  	<p>
+						Designed and built a web application for flight booking of multiple service providers through a common platform. This application was built using the LAMP stack. In addition, developed a suggester module based on a graph-based traversal of the connected airports to help generate meaningful suggestions based on connected entities.<br><br>
+				  	</p>
+				</li>
+			</ul>
+		</div>
+		<hr/>
+		<div class="outline-text-1" id="text-2"> <br/>
+			<h2> <a href="http://www.soft-corner.com"> Soft Corner, Pune </a> <img style="width:auto; height: 40px;" src="/images/softcorner.jpg" align="right"> </h2>
+
+			<ul class="org-ul"><br>
+				<li>
+					<h3><b>Generic Form Generator</b></h3>
+				  	
+				  	<p class="subtext"><i>(Winter Internship, Nov 2014 – Dec 2014)</i></p><br>	
+
+				  	<p>
+				  		Developed a generic form generator (similar to Google forms) where it would be possible to create customizable comprehensive forms as per user's requirement. This project was developed in Python, Django Framework, jQuery and MongoDB for the database.<br><br>
+				  	</p>
+				 	
+				</li>
+			</ul>
+		</div>
+		<hr/>
+		<div class="outline-text-1" id="text-3"> <br/>
+			<h2><font color="#0000FF"> For fun </a> <img style="width:auto; height:40px;" src="/images/fun.png" align="right"></font> </h2>
+
+			<ul class="org-ul"><br>
+				<li>
+				<h3><b>HTTP Log Analyzer</b> (<a href="https://github.com/amarchandole/LThreeCube">code</a>)</h3>
+				  	<p class="subtext"><i>(May 2015)</i></p><br>
+
+				  	<p>
+				  		Developed a generic form generator (similar to Google forms) where it would be possible to create customizable comprehensive forms as per user's requirement. This project was developed in Python, Django Framework, jQuery and MongoDB for the database.<br><br>
+				  	</p>
+
+				</li>
+
+				<li>
+				<h3><b>TCP/IP Data Summarization and Analysis</b> (<a href="https://github.com/amarchandole/LThreeCube">code</a>)</h3>
+				  	<p class="subtext"><i>(May 2015)</i></p><br>
+
+				  	<p>
+				  		Designed and developed an analyzer for comprehensive processing of packet capture files (.pcap/.cap) to generate a summary of TCP/IP data.<br><br>
+				  	</p>
+
+				</li>
+			</ul>
+		</div>
+		<hr/><br>
+	<h1 align = "center"><b>Technical Seminar</b></h1>
+   	<div id="outline-container-sec-1" class="content">
+	   	<br>
+	   	<div class="outline-text-1" id="text-1">
+			<h2> <a href="http://www.pict.edu"> Pune Institute of Computer Technology </a> <img style="width:auto; height: 65px;" src="/images/pict.jpeg" align="right"> </h2>
+
+			<ul class="org-ul"><br>
+				<li>
+					<h3><b>Bounded Degree Localized Geometric Planar Graphs for Wireless Ad-Hoc Networks</b></h3>
+				  	<p class="subtext"><i>(March 2015)</i></p><br>	
+
+				  	<p>
+				  		Discussed a paper on Hypocomb family graphs in Wireless Ad­-Hoc Networks for junior year Technical Seminar. The paper proposed a new set of construction algorithms for creating a new family of graphs to improve network performance and their effects on FACE routing. Devised ways to improve these algorithms and implement them. Energy efficient solution was also formulated.<br><br>
+				  	</p>
+				 	
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+      </div>
+    </div>
+    
+    <footer class="footer">
+  <div id="gotop">^</div>
+  <br>
+	@2016 ASC.
+</footer>
+
+    
+  </body>
+
+</html>

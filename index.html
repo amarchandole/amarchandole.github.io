@@ -1,3 +1,17 @@
-Hello from Amar! My new and fresh homepage will be up in a couple of days.
+---
+layout: homepage
+---
 
-<br><br>Why not have a look at my <a href="https://www.linkedin.com/in/amar-chandole-68427377">Linkedin profile</a> till then? 
+<div class="home">
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+		<div class="content">
+		{% if post.title == "wordcloud" %}
+		{{ post.excerpt }}
+		{% endif %}
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

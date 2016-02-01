@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Amar Chandole Homepage</title>
+    <description>Deduplication is good!
+</description>
+    <link>http://amarchandole.github.io/</link>
+    <atom:link href="http://amarchandole.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 02 Feb 2016 05:12:58 +0530</pubDate>
+    <lastBuildDate>Tue, 02 Feb 2016 05:12:58 +0530</lastBuildDate>
+    <generator>Jekyll v3.1.1</generator>
+    
+      <item>
+        <title>projects</title>
+        <description>&lt;p&gt;&lt;img width=&quot;800px&quot; height=&quot;400px&quot; src=&quot;/images/profile2.jpg&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 01 Feb 2016 04:53:23 +0530</pubDate>
+        <link>http://amarchandole.github.io/jekyll/update/2016/02/01/hey.html</link>
+        <guid isPermaLink="true">http://amarchandole.github.io/jekyll/update/2016/02/01/hey.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>wordcloud</title>
+        <description>&lt;p&gt;&lt;img width=&quot;800px&quot; height=&quot;400px&quot; src=&quot;/images/cloud4.png&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 31 Jan 2016 16:53:32 +0530</pubDate>
+        <link>http://amarchandole.github.io/jekyll/update/2016/01/31/about-me.html</link>
+        <guid isPermaLink="true">http://amarchandole.github.io/jekyll/update/2016/01/31/about-me.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+  </channel>
+</rss>

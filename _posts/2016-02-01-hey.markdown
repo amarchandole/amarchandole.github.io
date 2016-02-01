@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "projects"
+date:   2016-01-31 23:23:23
+categories: jekyll update
+---
+<img width="800px" height="400px" src="/images/profile2.jpg"/>
