@@ -24,6 +24,8 @@
 	padding-left:15px;
 }
 
+
+
 .timing {
 	position:relative;
 	margin-left:70px;
